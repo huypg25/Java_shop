@@ -35,7 +35,6 @@ import com.coeding.service.TypeService;
 
 /**
  * 
- * @author Lam Cong Hau
  *
  */
 @Controller

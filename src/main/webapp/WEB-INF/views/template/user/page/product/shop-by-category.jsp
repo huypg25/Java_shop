@@ -707,7 +707,6 @@
     })
 </script>
 <script>
-    // @author Lam Cong Hau
     var countWish = document.querySelector('#countWish');
     var cookie = document.cookie;
     var arr_product;

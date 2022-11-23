@@ -14,7 +14,6 @@ import com.coeding.entity.Type;
 import com.coeding.service.TypeService;
 /**
  * 
- * @author Lam Cong Hau
  *
  */
 @RestController

@@ -14,7 +14,6 @@
 		</div>
 		<jsp:include page="../components/nav-bar.jsp"></jsp:include>
 		<jsp:include page="../components/side-bar.jsp"></jsp:include>
-		<!-- @author: Nhanle -->
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper" style="min-height: 1342.88px;">
 			<!-- Content Header (Page header) -->

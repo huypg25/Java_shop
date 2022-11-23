@@ -25,7 +25,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @author Lam Cong Hau
  */
 @Controller
 @RequestMapping("/admin")

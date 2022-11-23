@@ -17,8 +17,6 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author NhanLe
- * @author Lam Cong Hau
  * Review rating star
  * */
 @Controller

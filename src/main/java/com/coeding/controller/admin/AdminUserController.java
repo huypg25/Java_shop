@@ -39,8 +39,6 @@ import javax.validation.Valid;
 
 /**
  * 
- * @author Vy list , edit , update , detail
- * @author Lam Cong Hau extend detail
  */
 @Controller
 @RequestMapping("/admin")

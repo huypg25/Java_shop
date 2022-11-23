@@ -22,7 +22,6 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * @author nhanle
  *
  */
 @Slf4j

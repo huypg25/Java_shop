@@ -25,7 +25,6 @@ public class UserService implements UserDetailsService {
     }
     /**
      * 
-     * @author Vy
      *
      */
     public List<User> findAll(){

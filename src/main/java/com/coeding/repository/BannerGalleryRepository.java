@@ -7,7 +7,6 @@ import com.coeding.entity.BannerGallery;
 
 /**
  * 
- * @author Lam Cong Hau
  *
  */
 @Repository

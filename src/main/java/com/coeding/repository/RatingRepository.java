@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 import com.coeding.entity.Rating;
 /**
  * 
- * @author Lam Cong Hau
  *
  */
 @Repository

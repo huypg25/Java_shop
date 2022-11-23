@@ -19,7 +19,6 @@ import com.coeding.entity.Contact;
 import com.coeding.service.ContactService;
 
 /**
- * @author Ton That Cao Cuong
  * 
  * */
 @Controller

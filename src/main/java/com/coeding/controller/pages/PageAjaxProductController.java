@@ -19,7 +19,6 @@ import com.coeding.service.ProductService;
 
 /**
  * 
- * @author Lam Cong Hau
  *
  */
 @RestController

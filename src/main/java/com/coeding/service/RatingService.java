@@ -14,7 +14,6 @@ import com.coeding.repository.DAO;
 import com.coeding.repository.RatingRepository;
 /**
  * 
- * @author Lam Cong Hau
  *
  */
 @Service

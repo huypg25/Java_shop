@@ -16,7 +16,6 @@ import com.coeding.entity.UserDetail;
 import com.coeding.service.OrderService;
 /**
  * 
- * @author Vy
  * list , detail
  */
 @Controller

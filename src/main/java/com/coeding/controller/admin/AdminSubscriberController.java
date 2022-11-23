@@ -21,10 +21,8 @@ import java.util.List;
 
 /**
  * 
- * @author Vy
  * list , detail
  *
- *  @author Nhanle
  *  subcriber/rely
  */
 @Controller

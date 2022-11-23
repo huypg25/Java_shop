@@ -14,7 +14,6 @@ import com.coeding.service.ContactService;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author TranDung
  *
  */
 @Controller
