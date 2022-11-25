@@ -8,9 +8,7 @@
 		<!-- Preloader -->
 		<div
 			class="preloader flex-column justify-content-center align-items-center">
-			<img class="animation__shake"
-				src="${pageContext.servletContext.contextPath}/dist/img/angry-nerds-logo-2.png"
-				alt="AdminLTELogo" height="260" width="260">
+			
 
 		</div>
 		<jsp:include page="../components/nav-bar.jsp"></jsp:include>
@@ -374,19 +372,19 @@
 								$('#stockQuantity-error').html('');
 							}
 
-							if (productColor.val().length === 0) {
-								hasSubmit.push(1);
-								$('#productColor').addClass(
-										'form-control is-invalid');
-								$('#productColor-error').html(
-										'Please choose color!');
-							} else {
-								$('#productColor').removeClass(
-										'form-control is-invalid');
-								$('#productColor').addClass(
-										'form-control is-valid');
-								$('#productColor-error').html('');
-							}
+							// if (productColor.val().length === 0) {
+							// 	hasSubmit.push(1);
+							// 	$('#productColor').addClass(
+							// 			'form-control is-invalid');
+							// 	$('#productColor-error').html(
+							// 			'Please choose color!');
+							// } else {
+							// 	$('#productColor').removeClass(
+							// 			'form-control is-invalid');
+							// 	$('#productColor').addClass(
+							// 			'form-control is-valid');
+							// 	$('#productColor-error').html('');
+							// }
 
 							if (brand.val() === '-1') {
 								hasSubmit.push(1);
@@ -413,17 +411,17 @@
 								$('#category-error').html('');
 							}
 
-							if (type.val() === null) {
-								hasSubmit.push(1);
-								$('#type').addClass('form-control is-invalid');
-								$('#type-error')
-										.html('Please choose category!');
-							} else {
-								$('#type').removeClass(
-										'form-control is-invalid');
-								$('#type').addClass('form-control is-valid');
-								$('#type-error').html('');
-							}
+							// if (type.val() === null) {
+							// 	hasSubmit.push(1);
+							// 	$('#type').addClass('form-control is-invalid');
+							// 	$('#type-error')
+							// 			.html('Please choose category!');
+							// } else {
+							// 	$('#type').removeClass(
+							// 			'form-control is-invalid');
+							// 	$('#type').addClass('form-control is-valid');
+							// 	$('#type-error').html('');
+							// }
 
 							function validate() {
 								for (var i = 0; i < listFile.length; i++) {

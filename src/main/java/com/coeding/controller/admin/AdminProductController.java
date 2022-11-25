@@ -78,8 +78,8 @@ public class AdminProductController {
 	public String saveProduct(@RequestParam("img") MultipartFile[] uploadfile, Product sp, Locale locale, Model model, HttpServletRequest request)
 			throws IOException {
 		logger.info("post : saveProduct");
-		String color = sp.getProductColor().substring(0, sp.getProductColor().length());
-		sp.setProductColor(color);
+		// String color = sp.getProductColor().substring(0, sp.getProductColor().length());
+		// sp.setProductColor(color);
 		List<ImageGallery> list = new ArrayList<ImageGallery>();
 		for (MultipartFile m : uploadfile) {
 			if (!m.isEmpty()) {

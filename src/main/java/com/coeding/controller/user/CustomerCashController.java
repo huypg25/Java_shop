@@ -17,9 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * author Nhanle
- * */
+
 @Controller
 @RequestMapping("/customer/payment")
 public class CustomerCashController {

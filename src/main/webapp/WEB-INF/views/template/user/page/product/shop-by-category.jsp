@@ -42,7 +42,7 @@
                                 </c:otherwise>
                             </c:choose>
                         </figure>
-                        <figure id="filterPart" >
+                        <!-- <figure id="filterPart" >
                             <h4 class="widget-title">By Parts</h4>
                             <c:choose>
                                 <c:when test="${not empty typeByProduct }">
@@ -65,10 +65,10 @@
                                 </c:otherwise>
                             </c:choose>
 
-                        </figure>
+                        </figure> -->
                     </div>
                     <hr>
-                    <figure id="filterPrice">
+                    <!-- <figure id="filterPrice">
                         <h4 class="widget-title">By Price</h4>
                         <%--                        <form action="" method="get" class="text-center">--%>
                         <div class="d-flex ml-4" style="align-items: center">
@@ -78,7 +78,7 @@
                         </div>
                         <button class="ps-btn mt-3 " style="padding: 10px 55px;margin-left: 40px" id="btnPrice">Apply</button>
                         <%--                        </form>--%>
-                    </figure>
+                    </figure> -->
 <%--                    <figure>--%>
 <%--                        <h4 class="widget-title">By Rating</h4>--%>
 <%--                        <div class="ps-checkbox">--%>
@@ -528,7 +528,7 @@
                 productTable +=  "<ul class='ps-product__actions'>";
                 productTable +=  " <li class='toCart' value='"+json[i].id+"'><a data-toggle='tooltip' data-placement='top' title='Add To Cart' ><i class='icon-bag2'></i></a></li>";
                 productTable += "<li><a data-placement='top' title='Quick View' data-toggle='modal' data-target='#product-quickview-"+json[i].id+"'><i class='icon-eye'></i></a></li>";
-                productTable += "<li><a onclick='addToWishList("+json[i].id+")' data-toggle='tooltip' data-placement='top' title='Add to Wishlist'><i class='icon-heart'></i></a></li> </ul> </div>";
+                // productTable += "<li><a onclick='addToWishList("+json[i].id+")' data-toggle='tooltip' data-placement='top' title='Add to Wishlist'><i class='icon-heart'></i></a></li> </ul> </div>";
                 productTable += "<div class='ps-product__container'> <div class='ps-product__content'>";
                 productTable += "<a class='ps-product__title' href='${pageContext.servletContext.contextPath}/product/detail?id="+json[i].id+"' onclick='addProductToViewList("+json[i].id+")'>"+json[i].productName+"</a>";
                 productTable +=  "<p class='ps-product__price'>$"+json[i].price+"</p> </div>";

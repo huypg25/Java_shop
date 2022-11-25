@@ -7,9 +7,7 @@
 		<!-- Preloader -->
 		<div
 			class="preloader flex-column justify-content-center align-items-center">
-			<img class="animation__shake"
-				src="${pageContext.servletContext.contextPath}/dist/img/angry-nerds-logo-2.png"
-				alt="AdminLTELogo" height="260" width="260">
+			
 
 		</div>
 		<jsp:include page="components/nav-bar.jsp"></jsp:include>
@@ -61,8 +59,7 @@
 							</div>
 						</div>
 						<!-- ./col -->
-						<div class="col-lg-3 col-6">
-							<!-- small box -->
+						<!-- <div class="col-lg-3 col-6">
 							<div class="small-box bg-success">
 								<div class="inner">
 									<h3>${numberContact }</h3>
@@ -75,7 +72,7 @@
 								<a href="${pageContext.servletContext.contextPath}/admin/contact"  class="small-box-footer">More info <i
 									class="fas fa-arrow-circle-right"></i></a>
 							</div>
-						</div>
+						</div> -->
 						<!-- ./col -->
 						<div class="col-lg-3 col-6">
 							<!-- small box -->
@@ -94,8 +91,7 @@
 							</div>
 						</div>
 						<!-- ./col -->
-						<div class="col-lg-3 col-6">
-							<!-- small box -->
+						<!-- <div class="col-lg-3 col-6">
 							<div class="small-box bg-danger">
 								<div class="inner">
 									<h3>${numberSub }</h3>
@@ -110,12 +106,12 @@
 									class="small-box-footer">More info <i
 									class="fas fa-arrow-circle-right"></i></a>
 							</div>
-						</div>
+						</div> -->
 						<!-- ./col -->
 					</div>
 					<!-- /.row -->
 					<!-- Main row -->
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-lg-12">
 							<div class="card">
 								<div class="card-header border-0">
@@ -150,7 +146,6 @@
 											<span class="text-muted">Since last month</span>
 										</p>
 									</div>
-									<!-- /.d-flex -->
 									<input type="hidden" id="priceLastYear"
 										value="${priceLastYear }"> <input type="hidden"
 										id="priceThisYear" value="${priceThisYear }">
@@ -167,18 +162,15 @@
 									</div>
 								</div>
 							</div>
-							<!-- /.card -->
 						</div>
-					</div>
+					</div> -->
 					<!-- /.row (main row) -->
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-12">
-							<!-- /.card -->
 							<div class="card">
 								<div class="card-header">
 									<h3 class="card-title">Top 5 best selling products</h3>
 								</div>
-								<!-- /.card-header -->
 								<div class="card-body">
 									<div id="example1_wrapper"
 										class="dataTables_wrapper dt-bootstrap4">
@@ -243,12 +235,9 @@
 										</div>
 									</div>
 								</div>
-								<!-- /.card-body -->
 							</div>
-							<!-- /.card -->
 						</div>
-						<!-- /.col -->
-					</div>
+					</div> -->
 					<!-- /.row -->
 				</div>
 				<!-- /.container-fluid -->

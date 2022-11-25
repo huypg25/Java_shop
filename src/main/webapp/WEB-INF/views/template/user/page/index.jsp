@@ -94,7 +94,7 @@
 			</div>
 		</div>
 		<%--    top product--%>
-		<div class="ps-product-list ps-clothings">
+		<!-- <div class="ps-product-list ps-clothings">
 			<div class="ps-container">
 
 				<div class="ps-section__header">
@@ -217,7 +217,7 @@
 				</div>
 
 			</div>
-		</div>
+		</div> -->
 
 		<%--    top product--%>
 
@@ -353,7 +353,8 @@
 				</div>
 			</c:if>
 		</c:forEach>
-		<c:if test="${not empty viewlist}">
+
+		<!-- <c:if test="${not empty viewlist}">
 			<div class="ps-page--product">
 				<div class="ps-container">
 					<div class="ps-section--default">
@@ -462,7 +463,7 @@
 
 				</div>
 			</div>
-		</c:if>
+		</c:if> -->
 
 
 

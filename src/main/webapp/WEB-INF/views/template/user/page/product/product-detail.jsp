@@ -126,12 +126,12 @@
 								<div class="ps-product__desc">
 									<p>
 										Sold By:<a href="${pageContext.servletContext.contextPath}/"><strong>
-												Angry-Nerds Shop</strong></a>
+												 Shop</strong></a>
 									</p>
 									<div class="ps-list--dot">${product.shortDescription }</div>
 								</div>
 								<div class="ps-product__variations">
-									<figure>
+									<!-- <figure>
 										<figcaption>Color</figcaption>
 										<c:if test="${black != null}">
 											<div class="ps-variant ps-variant--color color--1">
@@ -153,7 +153,7 @@
 												<span class="ps-variant__tooltip">Yellow</span>
 											</div>
 										</c:if>
-									</figure>
+									</figure> -->
 								</div>
 								<c:if test="${product.enabled}">
 									<div class="ps-product__shopping">
@@ -177,9 +177,9 @@
 											value="${product.id}">Add to cart</a><a
 											class="ps-btn buyNowDetail" value="${product.id}">Buy Now</a>
 										<div class="ps-product__actions">
-											<a onClick="addToWishList(${product.id})"
+											<!-- <a onClick="addToWishList(${product.id})"
 												data-toggle="tooltip" data-placement="top"
-												title="Add to Wishlist"><i class="icon-heart"></i></a>
+												title="Add to Wishlist"><i class="icon-heart"></i></a> -->
 										</div>
 									</div>
 								</c:if>
@@ -188,7 +188,7 @@
 						<div class="ps-product__content ps-tab-root">
 							<ul class="ps-tab-list">
 								<li class="active"><a href="#tab-1">Description</a></li>
-								<li><a href="#tab-4">Reviews</a></li>
+								<!-- <li><a href="#tab-4">Reviews</a></li> -->
 							</ul>
 							<div class="ps-tabs">
 								<div class="ps-tab active" id="tab-1">
@@ -352,16 +352,16 @@
 						</p>
 					</aside>
 					<aside class="widget widget_sell-on-site">
-						<p>
-							<i class="icon-store"></i> Sell on AngryNerds?<a
-								href="${pageContext.servletContext.contextPath}/register">
-								Register Now !</a>
-						</p>
+							<!-- <p>
+								<i class="icon-store"></i> Sell on AngryNerds?<a
+									href="${pageContext.servletContext.contextPath}/register">
+									Register Now !</a>
+							</p> -->
 					</aside>
 				</div>
 			</div>
 
-			<div class="ps-section--default">
+			<!-- <div class="ps-section--default">
 				<div class="ps-section__header">
 					<h3>Recent viewed</h3>
 				</div>
@@ -465,9 +465,9 @@
 						</c:if>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="ps-section--default">
+			<!-- <div class="ps-section--default">
 				<div class="ps-section__header">
 					<h3>Related products</h3>
 				</div>
@@ -561,7 +561,7 @@
 						</c:if>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<jsp:include page="../../components/footer.jsp"></jsp:include>

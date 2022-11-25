@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * author Nhanle
  */
 @RestController
 @RequestMapping(path = "/rest", produces = "application/json")

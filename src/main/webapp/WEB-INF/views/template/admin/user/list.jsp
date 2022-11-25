@@ -9,9 +9,7 @@
 		<!-- Preloader -->
 		<div
 			class="preloader flex-column justify-content-center align-items-center">
-			<img class="animation__shake"
-				src="${pageContext.servletContext.contextPath}/dist/img/angry-nerds-logo-2.png"
-				alt="AdminLTELogo" height="260" width="260">
+			
 
 		</div>
 		<jsp:include page="../components/nav-bar.jsp"></jsp:include>
@@ -57,8 +55,8 @@
 																rowspan="1" colspan="1">Status</th>
 															<th class="sorting text-center" tabindex="0" aria-controls="example1"
 																rowspan="1" colspan="1">Role</th>
-															<th class="sorting text-center" tabindex="0" aria-controls="example1"
-																rowspan="1" colspan="1">Action</th>
+															<!-- <th class="sorting text-center" tabindex="0" aria-controls="example1"
+																rowspan="1" colspan="1">Action</th> -->
 														</tr>
 													</thead>
 													<tbody>
@@ -87,7 +85,7 @@
 																	</c:choose>
 																</td>
 																<td class="text-center">${fn:substring(u.role, 5, fn:length(u.role))}</td>
-																<td class="text-center">
+																<!-- <td class="text-center">
 <%--																	<a--%>
 <%--																	href="${pageContext.servletContext.contextPath}/admin/user/detail?id=${u.id}"--%>
 <%--																	class="rounded-circle btn btn-sm btn-secondary"--%>
@@ -97,7 +95,7 @@
 																	href="${pageContext.request.contextPath}/admin/user/edit?id=${u.id}"
 																	id="${u.id}" class="rounded-circle btn btn-sm btn-info"
 																	title="Edit"> <i class="fas fa-pencil-alt"></i>
-																</a></td>
+																</a></td> -->
 															</tr>
 														</c:forEach>
 

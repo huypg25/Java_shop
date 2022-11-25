@@ -12,9 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * author Nhanle
- * */
+
 @Service
 @Transactional
 public class CategoryService implements DAO<Category> {

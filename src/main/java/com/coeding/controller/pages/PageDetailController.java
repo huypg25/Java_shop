@@ -80,10 +80,10 @@ public class PageDetailController {
 		//
 		Product p = productService.findById(id);
 		model.addAttribute("product", p);
-		List<String> listColor = Arrays.asList(p.getProductColor().split(","));
-		for (String color : listColor) {
-			model.addAttribute(color, color);
-		}
+		// List<String> listColor = Arrays.asList(p.getProductColor().split(","));
+		// for (String color : listColor) {
+		// 	model.addAttribute(color, color);
+		// }
 
 		List<Product> listProductByCategory = productService.findByCategoryId(p.getCategory().getId());
 		model.addAttribute("listProductByCategory", listProductByCategory);

@@ -9,9 +9,7 @@
 		<!-- Preloader -->
 		<div
 			class="preloader flex-column justify-content-center align-items-center">
-			<img class="animation__shake"
-				src="${pageContext.servletContext.contextPath}/dist/img/angry-nerds-logo-2.png"
-				alt="AdminLTELogo" height="260" width="260">
+			
 
 		</div>
 		<jsp:include page="../components/nav-bar.jsp"></jsp:include>
@@ -61,8 +59,8 @@
 																rowspan="1" colspan="1">Status</th>
 															<th class="sorting text-center" tabindex="0" aria-controls="example1"
 																rowspan="1" colspan="1">Price</th>
-															<th class="sorting text-center" tabindex="0" aria-controls="example1"
-																rowspan="1" colspan="1">Color</th>
+															<!-- <th class="sorting text-center" tabindex="0" aria-controls="example1"
+																rowspan="1" colspan="1">Color</th> -->
 															<th class="sorting text-center" tabindex="0" aria-controls="example1"
 																rowspan="1" colspan="1">Stock quantity</th>
 															<th class="sorting text-center" tabindex="0" aria-controls="example1"
@@ -71,8 +69,8 @@
 																rowspan="1" colspan="1">Brand</th>
 															<th class="sorting text-center" tabindex="0" aria-controls="example1"
 																rowspan="1" colspan="1">Category</th>
-															<th class="sorting text-center" tabindex="0" aria-controls="example1"
-																rowspan="1" colspan="1">Type</th>
+															<!-- <th class="sorting text-center" tabindex="0" aria-controls="example1"
+																rowspan="1" colspan="1">Type</th> -->
 															<th class="sorting text-center" tabindex="0" aria-controls="example1"
 																rowspan="1" colspan="1">Action</th>
 														</tr>
@@ -102,12 +100,12 @@
 																	</c:choose>
 																</td>
 																<td>${product.price }</td>
-																<td>${product.productColor }</td>
+																<!-- <td>${product.productColor }</td> -->
 																<td>${product.stockQuantity }</td>
 																<td><fmt:formatDate value='${product.updated }'  type='date' pattern='dd/MM/yyyy'/></td>
 																<td>${product.brand.name }</td>
 																<td>${product.category.name }</td>
-																<td>${product.type.name }</td>
+																<!-- <td>${product.type.name }</td> -->
 																<td class="project-actions text-center">
 <%--																	<a--%>
 <%--																	class="btn btn-primary btn-sm"--%>

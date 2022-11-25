@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * author Nhanle
  */
 @Slf4j
 @Controller

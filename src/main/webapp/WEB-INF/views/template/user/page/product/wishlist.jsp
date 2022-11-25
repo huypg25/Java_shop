@@ -48,7 +48,7 @@
 															href="${pageContext.servletContext.contextPath}/product/detail?id=${product.id}"
 															onclick="addProductToViewList(${product.id})">${product.productName }</a>
 														<p>
-															Sold By:<strong> Angry-Nerds SHOP</strong>
+															Sold By:<strong> SHOP</strong>
 														</p>
 													</div>
 												</div>
@@ -118,7 +118,7 @@
 			wishListTable += '<a href="${pageContext.servletContext.contextPath}/product/detail?id='+json[i].id+'" onclick="addProductToViewList('+json[i].id+')"><img src="${pageContext.request.contextPath}/product/display/0&'+json[i].id+'" alt="" width="100px" height="100px"></a>';
 			wishListTable += '</div>';
 			wishListTable += '<div class="ps-product__content">';
-			wishListTable += '<a href="${pageContext.servletContext.contextPath}/product/detail?id='+json[i].id+'" onclick="addProductToViewList('+json[i].id+')">'+json[i].productName+'</a><p>Sold By:<strong> Angry-Nerds SHOP</strong></p>';
+			wishListTable += '<a href="${pageContext.servletContext.contextPath}/product/detail?id='+json[i].id+'" onclick="addProductToViewList('+json[i].id+')">'+json[i].productName+'</a><p>Sold By:<strong> SHOP</strong></p>';
 			wishListTable += '</div>';
 			wishListTable += '</div>';
 			wishListTable += '</td>';

@@ -24,7 +24,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * author Nhanle
  */
 @RestController
 @RequestMapping(path = "/cart", produces = "application/json")

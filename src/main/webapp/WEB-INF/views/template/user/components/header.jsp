@@ -17,7 +17,7 @@
                             <c:forEach  items="${categories}" var="c">
                                 <li class="menu-item-has-children has-mega-menu"><a href="${pageContext.servletContext.contextPath}/product?category=${c.id}"><i class="icon-desktop"></i>${c.name}</a>
                                     <div class="mega-menu">
-                                        <div class="mega-menu__column">
+                                        <!-- <div class="mega-menu__column">
                                                 <%--                                                ${typeByCategory}--%>
                                             <h4>Parts<span class="sub-toggle"></span></h4>
                                             <ul class="mega-menu__list">
@@ -36,7 +36,7 @@
                                                     </li>
                                                 </c:forEach>
                                             </ul>
-                                        </div>
+                                        </div> -->
 
                                     </div>
                                 </li>
@@ -47,7 +47,11 @@
 
                     </div>
 <%--                </div><a class="ps-logo" href="index.html"><img src="${pageContext.servletContext.contextPath}/img/logo_light.png" alt=""></a></div>--%>
-        </div><a class="ps-logo" href="${pageContext.servletContext.contextPath}/"><img src="${pageContext.servletContext.contextPath}/img/Angry-Nerds-2.png"  alt=""></a></div>
+        </div><a class="ps-logo" href="${pageContext.servletContext.contextPath}/">
+            <!-- <img src="${pageContext.servletContext.contextPath}/img/logo.png"  alt=""> -->
+            <img src="#"  alt="">
+
+        </a></div>
 
     <div class="header__center">
                 <form class="ps-form--quick-search" action="${pageContext.servletContext.contextPath}/product" method="post">
@@ -174,7 +178,7 @@
                             <ul class="menu--dropdown">
                                 <c:forEach  items="${categories}" var="c">
                                     <li class="menu-item-has-children has-mega-menu"><a href="${pageContext.servletContext.contextPath}/product?category=${c.id}"><i class="icon-desktop"></i>${c.name}</a>
-                                        <div class="mega-menu">
+                                        <!-- <div class="mega-menu">
                                             <div class="mega-menu__column">
                                                 <h4>Parts<span class="sub-toggle"></span></h4>
                                                 <ul class="mega-menu__list">
@@ -194,7 +198,7 @@
                                                     </c:forEach>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
 
                                 </c:forEach>
@@ -261,7 +265,7 @@
     <div class="navigation--mobile">
         <div class="navigation__left"><a class="ps-logo" href="index.html">
 <%--            <img src="${pageContext.servletContext.contextPath}/img/logo_light.png" alt="">--%>
-            <img src="${pageContext.servletContext.contextPath}/img/Angry-Nerds-2.png"  alt="">
+            <!-- <img src="${pageContext.servletContext.contextPath}/img/Angry-Nerds-2.png"  alt=""> -->
 
         </a></div>
         <div class="navigation__right">

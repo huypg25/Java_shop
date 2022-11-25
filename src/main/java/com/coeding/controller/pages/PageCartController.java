@@ -21,7 +21,6 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * author Nhanle
  */
 @Controller
 @RequestMapping("/cart")

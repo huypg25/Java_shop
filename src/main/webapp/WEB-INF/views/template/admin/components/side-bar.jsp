@@ -2,10 +2,10 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
+        <!-- <a href="index3.html" class="brand-link">
           <img src="${pageContext.servletContext.contextPath}/img/Angry-Nerds-2.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
           <span class="brand-text font-weight-light">&nbsp;</span>
-        </a>
+        </a> -->
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -81,12 +81,12 @@
                                 <p>Category</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a id="typelist" href="${pageContext.servletContext.contextPath}/admin/type" class="nav-link">
                                 <i class="fa fa-filter  nav-icon" ></i>
                                 <p>Type</p>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
 
@@ -125,7 +125,7 @@
                                 <p>Order</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a id="paymentlist" href="${pageContext.servletContext.contextPath}/admin/payment" class="nav-link">
                                 <i class="fa fa-credit-card nav-icon" ></i>
                                 <p>Payment</p>
@@ -142,7 +142,7 @@
                                 <i class="fa fa-envelope-open nav-icon" ></i>
                                 <p>Subscriber</p>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
 <%--                --%>

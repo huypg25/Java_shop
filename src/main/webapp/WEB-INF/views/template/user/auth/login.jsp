@@ -35,25 +35,26 @@
                                     <input class="form-control" type="text" placeholder="Username" name="username">
                                 </div>
                                 <div class="form-group form-forgot">
-                                    <input class="form-control" type="password" placeholder="Password" name="password"><a href="${pageContext.servletContext.contextPath}/forgot-password">Forgot?</a>
+                                    <input class="form-control" type="password" placeholder="Password" name="password">
+                                    <!-- <a href="${pageContext.servletContext.contextPath}/forgot-password">Forgot?</a> -->
                                 </div>
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <div class="ps-checkbox">
                                         <input class="form-control" type="checkbox" id="remember-me" name="remember-me">
                                         <label for="remember-me">Rememeber me</label>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="form-group submtit">
                                     <button class="ps-btn ps-btn--fullwidth">Login</button>
                                 </div>
                             </div>
                         </form>
                         <div class="ps-form__footer">
-                            <p>Connect with:</p>
+                            <!-- <p>Connect with:</p>
                             <ul class="ps-list--social">
                                 <li><a class="facebook" href="/oauth2/authorization/facebook"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="google" href="/oauth2/authorization/google"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
