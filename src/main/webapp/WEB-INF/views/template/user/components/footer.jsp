@@ -36,7 +36,7 @@
 							</div>
 							<h4 class="ps-product__price">$${p.price}</h4>
 							<div class="ps-product__desc">
-								<p>Sold By:<a href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"><strong> Angry Nerds</strong></a></p>
+								<p>Sold By:<a href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"><strong> Shop</strong></a></p>
 								<div class="ps-list--dot">
 										${p.shortDescription}
 								</div>
@@ -432,7 +432,7 @@
 				cartItemContent += "<div class='ps-product__thumbnail'><a href='#'><img src='${pageContext.request.contextPath}/product/display/0&"+cartItems[i].product.id+"' alt=''></a></div>"
 				cartItemContent += "<div class='ps-product__content '><a class='ps-product__remove removeCartProduct ' value='"+cartItems[i].product.id+"' ><i class='icon-cross ' ></i></a><a href='product-default.html'>"
 						+ cartItems[i].product.productName + "</a>"
-				cartItemContent += "<p><strong>Sold by:</strong>  ANGRY NERDS</p><small>"
+				cartItemContent += "<p><strong>Sold by:</strong>  Shop</p><small>"
 						+ cartItems[i].sellingQuantity
 						+ " x $"
 						+ cartItems[i].product.price + "</small>"

@@ -57,9 +57,9 @@
 																		data-toggle="modal"
 																		data-target="#product-quickview-${p.id}"><i
 																			class="icon-eye"></i></a></li>
-																	<li><a onClick="addToWishList(${p.id})"
+																	<!-- <li><a onClick="addToWishList(${p.id})"
 																		data-toggle="tooltip" data-placement="top"
-																		title="Add to Wishlist"><i class="icon-heart"></i></a></li>
+																		title="Add to Wishlist"><i class="icon-heart"></i></a></li> -->
 																</ul>
 															</c:when>
 															<c:otherwise>
@@ -300,7 +300,7 @@
                     cartItemContent +="<div class='ps-product--cart-mobile'>"
                     cartItemContent +="<div class='ps-product__thumbnail'><a href='#'><img src='${pageContext.request.contextPath}/product/display/0&"+cartItems[i].product.id+"' alt=''></a></div>"
                     cartItemContent +="<div class='ps-product__content '><a class='ps-product__remove removeCartProduct ' value='"+cartItems[i].product.id+"' ><i class='icon-cross ' ></i></a><a href='product-default.html'>"+cartItems[i].product.productName+"</a>"
-                    cartItemContent +="<p><strong>Sold by:</strong>  ANGRY NERDS</p><small>"+cartItems[i].sellingQuantity+" x $"+cartItems[i].product.price+"</small>"
+                    cartItemContent +="<p><strong>Sold by:</strong>  Shop</p><small>"+cartItems[i].sellingQuantity+" x $"+cartItems[i].product.price+"</small>"
                     cartItemContent +=" </div> </div>"
                     cartItemContent +=" </div>"
                 }

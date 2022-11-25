@@ -133,9 +133,7 @@
 													data-toggle="modal"
 													data-target="#product-quickview-${p.id}"><i
 														class="icon-eye"></i></a></li>
-												<li><a data-toggle="tooltip" data-placement="top"
-													title="Add to Whishlist" onclick="addToWishList(${p.id})"><i
-														class="icon-heart"></i></a></li>
+										
 											</ul>
 										</c:when>
 										<c:otherwise>
@@ -147,7 +145,7 @@
 								<div class="ps-product__container">
 									<a class="ps-product__vendor"
 										href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"
-										onclick="addProductToViewList(${p.id})">Angry Nerds</a>
+										onclick="addProductToViewList(${p.id})">Shop</a>
 									<div class="ps-product__content">
 										<a class="ps-product__title"
 											href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"
@@ -260,9 +258,9 @@
 															data-toggle="modal"
 															data-target="#product-quickview-${p.id}"><i
 																class="icon-eye"></i></a></li>
-														<li><a data-toggle="tooltip" data-placement="top"
+														<!-- <li><a data-toggle="tooltip" data-placement="top"
 															title="Add to Whishlist" onclick="addToWishList(${p.id})"><i
-																class="icon-heart"></i></a></li>
+																class="icon-heart"></i></a></li> -->
 													</ul>
 												</c:when>
 												<c:otherwise>
@@ -274,7 +272,7 @@
 										<div class="ps-product__container">
 											<a class="ps-product__vendor"
 												href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"
-												onclick="addProductToViewList(${p.id})">Angry Nerds</a>
+												onclick="addProductToViewList(${p.id})">Shop</a>
 											<div class="ps-product__content">
 												<a class="ps-product__title"
 													href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"

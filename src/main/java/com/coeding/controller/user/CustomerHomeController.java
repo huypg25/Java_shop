@@ -48,7 +48,7 @@ public class CustomerHomeController {
         }
 
         if (viewList.size()>0){
-            return "redirect:/customer/recent";
+            return "redirect:/customer/info";
         }
 
         return  "redirect:/customer/info";

@@ -170,7 +170,7 @@
                                                                     <ul class="ps-product__actions">
                                                                         <li value="${p.id}" class="toCart"><a  data-toggle="tooltip" data-placement="top" title="Add To Cart" ><i class="icon-bag2"></i></a></li>
                                                                         <li><a  data-placement="top" title="Quick View" data-toggle="modal" data-target="#product-quickview-${p.id}"><i class="icon-eye"></i></a></li>
-                                                                        <li><a  data-toggle="tooltip" data-placement="top" title="Add to Whishlist" onclick="addToWishList(${p.id})"><i class="icon-heart"></i></a></li>
+                                                                        <!-- <li><a  data-toggle="tooltip" data-placement="top" title="Add to Whishlist" onclick="addToWishList(${p.id})"><i class="icon-heart"></i></a></li> -->
                                                                     </ul>
                                                                 </div>
                                                                 <div class="ps-product__container">
@@ -242,7 +242,7 @@
 <%--                                </div>--%>
 <%--                                <h4 class="ps-product__price">$${p.price}</h4>--%>
 <%--                                <div class="ps-product__desc">--%>
-<%--                                    <p>Sold By:<a href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"><strong> Angry Nerds</strong></a></p>--%>
+<%--                                    <p>Sold By:<a href="${pageContext.servletContext.contextPath}/product/detail?id=${p.id}"><strong> Shop</strong></a></p>--%>
 <%--                                    <div class="ps-list--dot">--%>
 <%--                                            ${p.shortDescription}--%>
 <%--                                    </div>--%>
@@ -615,7 +615,7 @@
                     cartItemContent +="<div class='ps-product--cart-mobile'>"
                     cartItemContent +="<div class='ps-product__thumbnail'><a href='#'><img src='${pageContext.request.contextPath}/product/display/0&"+cartItems[i].product.id+"' alt=''></a></div>"
                     cartItemContent +="<div class='ps-product__content '><a class='ps-product__remove removeCartProduct ' value='"+cartItems[i].product.id+"' ><i class='icon-cross ' ></i></a><a href='product-default.html'>"+cartItems[i].product.productName+"</a>"
-                    cartItemContent +="<p><strong>Sold by:</strong>  ANGRY NERDS</p><small>"+cartItems[i].sellingQuantity+" x $"+cartItems[i].product.price+"</small>"
+                    cartItemContent +="<p><strong>Sold by:</strong>  Shop</p><small>"+cartItems[i].sellingQuantity+" x $"+cartItems[i].product.price+"</small>"
                     cartItemContent +=" </div> </div>"
                     cartItemContent +=" </div>"
                 }

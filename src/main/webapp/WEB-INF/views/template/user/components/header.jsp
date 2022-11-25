@@ -76,14 +76,14 @@
                 <div class="header__actions">
                     <a class="header__extra"  style="display: none"><i class="icon-chart-bars"></i><span><i>0</i></span></a>
 
-                    <c:choose>
+                    <!-- <c:choose>
                         <c:when test="${user!=null}">
                             <a class="header__extra" href="${pageContext.servletContext.contextPath}/customer/wishlist"><i class="icon-heart"></i><span><i id="countWish">0</i></span></a>
                         </c:when>
                         <c:otherwise>
                             <a class="header__extra" href="${pageContext.servletContext.contextPath}/product/wishlist"><i class="icon-heart"></i><span><i id="countWish">0</i></span></a>
                         </c:otherwise>
-                    </c:choose>
+                    </c:choose> -->
 
                     <div class="ps-cart--mini"><a class="header__extra" ><i class="icon-bag2"></i><span><i id="cartItemCount-1">0</i></span></a>
                         <div class="ps-cart__content"  id="cart-content-1" style="display: none" >
@@ -218,8 +218,8 @@
                     </li>
                 </ul>
                 <ul class="navigation__extra">
-                    <li><a href="${pageContext.servletContext.contextPath}/product">Sell on Martfury</a></li>
-                    <li><a href="${pageContext.servletContext.contextPath}/customer/product/checkout-page">Track your order</a></li>
+                    <!-- <li><a href="${pageContext.servletContext.contextPath}/product">Sell on Martfury</a></li>
+                    <li><a href="${pageContext.servletContext.contextPath}/customer/product/checkout-page">Track your order</a></li> -->
                 </ul>
             </div>
         </div>

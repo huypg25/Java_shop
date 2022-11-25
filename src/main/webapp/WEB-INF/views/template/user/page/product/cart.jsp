@@ -36,7 +36,7 @@
                                         <div class="ps-product--cart">
                                             <div class="ps-product__thumbnail"><a href="${pageContext.servletContext.contextPath}/product/detail?id=${item.product.id}"><img src="${pageContext.request.contextPath}/product/display/0&${item.product.id}" alt=""></a></div>
                                             <div class="ps-product__content"><a href="${pageContext.servletContext.contextPath}/product/detail?id=${item.product.id}">${item.product.productName}</a>
-                                                <p>Sold By:<strong> ANGRY NERDS</strong></p>
+                                                <p>Sold By:<strong> Shop</strong></p>
                                             </div>
                                         </div>
                                     </td>
@@ -235,7 +235,7 @@
                     cartItemContent +="<div class='ps-product--cart-mobile'>"
                     cartItemContent +="<div class='ps-product__thumbnail'><a href='#'><img src='${pageContext.request.contextPath}/product/display/0&"+cartItems[i].product.id+"' alt=''></a></div>"
                     cartItemContent +="<div class='ps-product__content '><a class='ps-product__remove removeCartProduct ' value='"+cartItems[i].product.id+"' ><i class='icon-cross ' ></i></a><a href='product-default.html'>"+cartItems[i].product.productName+"</a>"
-                    cartItemContent +="<p><strong>Sold by:</strong>  ANGRY NERDS</p><small>"+cartItems[i].sellingQuantity+" x $"+cartItems[i].product.price+"</small>"
+                    cartItemContent +="<p><strong>Sold by:</strong>  Shop</p><small>"+cartItems[i].sellingQuantity+" x $"+cartItems[i].product.price+"</small>"
                     cartItemContent +=" </div> </div>"
                     cartItemContent +=" </div>"
                 }
@@ -328,7 +328,7 @@
                 table +="<div class='ps-product--cart'>"
                 table +="<div class='ps-product__thumbnail'><a href='${pageContext.servletContext.contextPath}/product/detail?id="+item[i].product.id+"'><img src='${pageContext.request.contextPath}/product/display/0&"+item[i].product.id+"' alt=''></a></div>"
                 table +="<div class='ps-product__content'><a href='${pageContext.servletContext.contextPath}/product/detail?id="+item[i].product.id+"'>"+item[i].product.productName+"</a>"
-                table +="<p>Sold By:<strong> ANGRY NERDS</strong></p>"
+                table +="<p>Sold By:<strong> Shop</strong></p>"
                 table +="</div> </div> </td>"
                 table +="<td class='price text-center' data-label='Price'>$"+item[i].product.price+"</td>"
                 table +="<td data-label='Quantity' class='text-center'>"

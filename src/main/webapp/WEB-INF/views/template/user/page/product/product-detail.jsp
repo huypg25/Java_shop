@@ -157,7 +157,7 @@
 								</div>
 								<c:if test="${product.enabled}">
 									<div class="ps-product__shopping">
-										<figure>
+										<!-- <figure>
 											<span style="color: red" class="invalid-${product.id}"></span>
 											<figcaption>Quantity</figcaption>
 											<div class="form-group--number">
@@ -172,10 +172,10 @@
 														type="text" placeholder="1" value="1" readonly>
 												</div>
 											</div>
-										</figure>
+										</figure> -->
 										<a class="ps-btn ps-btn--black toCartDetail"
-											value="${product.id}">Add to cart</a><a
-											class="ps-btn buyNowDetail" value="${product.id}">Buy Now</a>
+											value="${product.id}">Add to cart</a>
+											<!-- <a class="ps-btn buyNowDetail" value="${product.id}">Buy Now</a> -->
 										<div class="ps-product__actions">
 											<!-- <a onClick="addToWishList(${product.id})"
 												data-toggle="tooltip" data-placement="top"

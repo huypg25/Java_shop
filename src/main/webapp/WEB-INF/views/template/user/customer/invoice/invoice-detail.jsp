@@ -99,7 +99,7 @@
                                                             </a>
                                                         </div>
                                                         <div class="ps-product__content"><a href="${pageContext.servletContext.contextPath}/product/detail?id=${items.product.id}">${items.product.productName}</a>
-                                                            <p>Sold By:<strong> ANGRY NERDS</strong></p>
+                                                            <p>Sold By:<strong> Shop</strong></p>
                                                         </div>
                                                     </div>
                                                 </td>

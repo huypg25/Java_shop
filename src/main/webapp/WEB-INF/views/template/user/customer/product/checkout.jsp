@@ -57,7 +57,7 @@
                                                                     <span> ${cartItem.product.productName}</span>
                                                                     <span>  x${cartItem.sellingQuantity}</span>
                                                                 </a>
-                                                                <p>Sold By: <strong>ANGRY NERDS</strong></p>
+                                                                <p>Sold By: <strong>Shop</strong></p>
 
                                                             </td>
 
